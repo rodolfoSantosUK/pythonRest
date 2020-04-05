@@ -38,23 +38,11 @@ class Add(Resource):
         y = int(y)
         ret = x + y
 
-
-
         retMap = {
             "Message" : ret,
             "Status Code" : status_code
         }
         return jsonify
-
-class Substract(Resource):
-    pass
-
-class Multiply(Resource):
-    pass
-
-class Divide(Resource):
-    pass
-
 
 api.add_resource(Add,"/add")
 
