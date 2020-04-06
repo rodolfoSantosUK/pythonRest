@@ -1,0 +1,7 @@
+criando diretorio web
+
+na raiz do projeto
+
+sudo mkdir web
+sudo cp../api.py .
+sudo touch Dockerfile

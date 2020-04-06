@@ -46,3 +46,4 @@ class Add(Resource):
 
 api.add_resource(Add,"/add")
 app.run(host="0.0.0.0")
+
